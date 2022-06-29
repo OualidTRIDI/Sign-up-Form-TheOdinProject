@@ -83,7 +83,10 @@ body {
   flex-direction: column;
   gap: 2px;
 }
-
+input:focus {
+  border: 2px #e19702 solid;
+  outline: none;
+}
 button {
   background-color: #e19702;
   border: none;
@@ -101,4 +104,8 @@ button {
 .have-account span {
   color: #e19702;
   font-weight: bold;
+}
+
+.have-account span:hover {
+  cursor: pointer;
 }
